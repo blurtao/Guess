@@ -10,4 +10,14 @@
 
 @interface GuessViewController : UIViewController
 
+- (IBAction)chooseItem1;
+- (IBAction)chooseItem2;
+- (IBAction)chooseItem3;
+- (IBAction)showAlert:(int)winOrLose user:(NSString *)s1 sys:(NSString *)s2;
+
+
+@property(nonatomic, strong)IBOutlet UILabel *scoreLabel;
+@property(nonatomic, strong)IBOutlet UILabel *roundLabel;
+
+
 @end
